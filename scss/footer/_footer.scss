@@ -3,12 +3,15 @@
     height: 200px;
     margin-top: auto;
     display: flex;
+    padding-bottom: 50px;
 
-    img {
+    &__little_image {
         width: 150px;
+        height: 200px;
         margin-right: 30px;
         margin-left: 20px;
-        margin-bottom: 20px;
+        padding-bottom: 10px;
+        
     }
 }
 .footer__menu {
