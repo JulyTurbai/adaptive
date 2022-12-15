@@ -1,0 +1,209 @@
+@media (max-width:414px) {
+    .film-block {
+        background-image: url(../img/adaptive.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+    .header__menu_watching {
+        display: none;
+    }
+
+}
+@media (max-width: 414px) {
+    .header__menu_logo {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_tarifs {
+        display: none;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_tarifs {
+        display: none;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_exit {
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .header__menu_add   {
+        position: relative;
+        z-index: 5000;
+       
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_search   {
+        z-index: 6000;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_lang   {
+        z-index: 7000;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_exit   {
+        z-index: 7000;
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_add .circle   {
+        z-index: 9000;
+       
+    }
+}
+@media (max-width: 414px) {
+    .header__menu_add:hover .header__menu_little  {
+        transform: translate(0);
+        transition: transform .5s;
+       
+    }
+}
+@media (max-width: 414px) {
+    .sound-control__button {
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+@media (max-width: 414px) {
+    .sound-control {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+}
+
+@media (max-width: 414px) {
+    .header__menu_little  {
+        position: absolute;
+        width: 150px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-100%);
+        background: black;
+        border-radius: 2px;
+        top: 0px;
+        padding-top: 17px;
+        font-size: 12px;
+        margin-left: 25px;
+        
+        
+    }
+}
+@media (max-width: 414px) {
+    .header__menu .little_items {
+        display: initial;
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 10px;
+        
+    }
+}
+@media (max-width: 414px) {
+    .header__menu .little_items:hover {
+        transform: scale(110%);
+        transition: 1s;
+        
+    }
+}
+@media (max-width: 414px) {
+    .header__menu .little_tarifs:hover {
+        transform: scale(110%);
+        transition: 1s;
+        
+    }
+}
+@media (max-width: 414px) {
+    .header__menu .little_tarifs {
+        display: initial;
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 100px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 14px;
+        background: black;
+        border-radius: 3px;
+        
+        
+    }
+}
+@media (max-width: 414px) {
+    .footer {
+        padding-left: 10px;
+        
+        
+    }
+} 
+@media (max-width: 414px) {
+    .footer__menu_info {
+        color: white;
+        font-size: 11px;
+    }
+}
+@media (max-width: 414px) {
+    .footer__img {
+        display: none;
+    }
+}  
+@media (max-width: 414px) {
+    .footer__menu .film-name {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+} 
+
+@media (max-width: 414px) {
+    .footer__menu_elements {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 414px) {
+    .footer__menu_reaction {
+        margin-top: 15px;
+    }
+}  
+@media (max-width: 414px) {
+    .footer__menu_reaction .footer__menu_like  {
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+      margin-right: 25px;
+    }
+} 
+@media (max-width: 414px) {
+    .footer__menu_reaction .footer__menu_dislike  {
+      width: 40px;
+      height: 40px;
+    }
+} 
+@media (max-width: 414px) {
+    .footer__menu_watch {
+        width: 120px;
+        height: 40px;
+        margin-right: 10px;
+    }
+} 
+@media (max-width: 414px) {
+    .footer__menu_add-button {
+        width: 70px;
+        height: 40px;
+        margin-right: 10px;
+        border: 2px solid white;
+    }
+} 
+
+
+
+

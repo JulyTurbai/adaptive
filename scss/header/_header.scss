@@ -1,0 +1,87 @@
+.header {
+    @include flex;
+    max-width: 1280px;
+    height: 80px;
+    background: $colorHeader;
+    padding: 20px 0;
+    
+    
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    
+    &_logo  {
+        width: 120px;
+        height: 20px;
+        margin-right: 50px;
+        
+    }
+    &_watching {
+        display: flex;
+        align-items: center;
+        color: $fontsColor;
+        margin-right: 30px;
+        text-transform: uppercase;
+        font-family: 'TT Norms Pro';
+        font-size: 14px;
+    }
+    &_watching .items {
+        margin-right: 30px;
+        border-color: white;
+        
+    }
+    .items:last-child {
+        margin-right: 0;
+    }
+    &_add {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+         .circle {
+            width: 5px;
+            height: 5px;
+            border: 1px solid silver;
+            background: silver;
+            border-radius: 50%;
+            margin-right: 3px;
+        }
+        .circle:last-child {
+            margin-right: 0px;
+        }
+        .little_items {
+            display: none;
+            color:$fontsColor;
+            
+        }
+    
+    }
+    &_tarifs {
+        width: 100px;
+        height: 30px;
+        border: 1px solid white;
+        color: white;
+        font-size: 14px;
+        background: black;
+        border-radius: 3px;
+    }
+    &_search {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+    }
+    &_lang {
+        font-size: 14px;
+        margin-left: 20px;
+        color: grey;
+    }
+    &_exit {
+        font-size: 14px;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+}
+.header__menu .little_tarifs {
+    display: none;
+}
